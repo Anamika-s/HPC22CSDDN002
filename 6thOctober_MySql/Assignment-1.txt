@@ -1,0 +1,74 @@
+Create a table Worker with following columns
+Worker
+WORKER_ID INT,
+	FIRST_NAME CHAR(25),
+	LAST_NAME CHAR(25),
+	SALARY int,
+	JOINING_DATE DATETIME,
+	DEPARTMENT CHAR(25)
+
+where in WORKER_ID  is primary key,
+FIRST_NAME  should not allow nulls
+SALARY should be in range 10000 to 25000
+dept can be only HR Sales Accts and IT
+
+Keep Date format 2016-06-11 00:00:00 while entering Records
+
+Q-1. Write an SQL query to fetch “FIRST_NAME” from Worker table using the alias name as <WORKER_NAME>.
+Q-2. Write an SQL query to fetch “FIRST_NAME” from Worker table in upper case.
+Q-3. Write an SQL query to fetch unique values of DEPARTMENT from Worker table.
+
+ 
+Q-4. Write an SQL query to print the first three characters of  FIRST_NAME from Worker table.
+
+ 
+Q-5. Write an SQL query to find the position of the alphabet (‘a’) in the first name column ‘Amitabh’ from Worker table.
+
+ 
+Q-6. Write an SQL query to print the FIRST_NAME from Worker table after removing white spaces from the right side.
+
+ 
+Q-7. Write an SQL query to print the DEPARTMENT from Worker table after removing white spaces from the left side.
+
+ 
+Q-8. Write an SQL query that fetches the unique values of DEPARTMENT from Worker table and prints its length.
+
+ 
+Q-9. Write an SQL query to print the FIRST_NAME from Worker table after replacing ‘a’ with ‘A’.
+
+ 
+Q-10. Write an SQL query to print the FIRST_NAME and LAST_NAME from Worker table into a single column COMPLETE_NAME. A space char should separate them.
+
+ 
+Q-11. Write an SQL query to print all Worker details from the Worker table order by FIRST_NAME Ascending.
+
+ 
+Q-12. Write an SQL query to print all Worker details from the Worker table order by FIRST_NAME Ascending and DEPARTMENT Descending.
+
+ 
+Q-13. Write an SQL query to print details for Workers with the first name as “Vipul” and “Satish” from Worker table.
+
+ 
+Q-14. Write an SQL query to print details of workers excluding first names, “Vipul” and “Satish” from Worker table.
+
+ 
+Q-15. Write an SQL query to print details of Workers with DEPARTMENT name as “Admin”.
+
+ 
+Q-16. Write an SQL query to print details of the Workers whose FIRST_NAME contains ‘a’.
+
+Q-17. Write an SQL query to print details of the Workers whose FIRST_NAME ends with ‘a’.
+
+ 
+Q-18. Write an SQL query to print details of the Workers whose FIRST_NAME ends with ‘h’ and contains six alphabets.
+
+Q-19. Write an SQL query to print details of the Workers whose SALARY lies between 100000 and 500000.
+
+ 
+Q-20. Write an SQL query to print details of the Workers who have joined in Feb’2014.
+
+ 
+Q-21. Write an SQL query to fetch the count of employees working in the department ‘Admin’.
+
+ 
+
