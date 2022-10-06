@@ -1,0 +1,41 @@
+
+  Data : Raw facts or figures which are meaning less
+
+ 
+
+ RollNo   Name  Marks
+ 1	 Ajay	 90
+ 2       Deepak  12
+ 3       Sagar   90
+
+  Database : Collection of Records
+
+ Data : Raw facts or figures : 
+  Information : Analysed and Processed data
+
+
+  DBMS : Database Management System its a sofware
+  Used to manage data
+   
+ It can be used for:
+  1. Adding Data
+  2. Deleting Data
+  3. Searching Data
+  4. Listing of Records
+  5. Editing of Records
+
+
+  DBMS : 
+
+  RDMBS   : Relational Database (Tables)
+  HDBMS   : Hierarchial  : Parent/child 
+  NDBMS   : Network      : Connectors
+  NoSql   : MongoDB  , document db
+  Object Oriented Database : Follows OOps COncept
+  Cloud Database : stored on cloud  : Cosmos 
+
+
+
+
+   
+

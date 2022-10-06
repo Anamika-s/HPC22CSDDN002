@@ -1,0 +1,81 @@
+
+create database PracticeDb;
+use PracticeDb;
+create table Employee (id int, name varchar(20) , address varchar(20), salary int) 
+insert into Employee values (id, name, address,salary)
+(1, 'Ajay' 'Delhi', 25000),
+(2, 'Ajay' null, 25000),
+(3, 'Deepak' 'Delhi', 25000);
+select * from Employee;
+
+
+
+-- DDL
+create database PracticeDb;
+use PracticeDb;
+-- DDL
+create table Employee2 (id int, name varchar(20) , address varchar(20), salary int) 
+-- DML
+insert into Employee values (id, name, address,salary)
+(1, 'Ajay' 'Delhi', 25000),
+(2, 'Ajay' null, 25000),
+(3, 'Deepak' 'Delhi', 25000);
+select * from Employee;
+select * from Employee where name ='Ajay';
+
+select * from Employee where name LIKE 'Ajay';
+
+select * from Employee where address is not null;
+select * from Employee where Salary is not null;
+
+select * from Employee where salary >= 22000 and salary <=25000;
+-- BETWEEN
+select * from Employee where salary BETWEEN 22000 and 25000 ;
+
+-- DML
+update Employee set address ='Old Delhi' where id=3;
+select 
+
+
+use PracticeDb;
+-- ADDING CONSTRAINTS
+drop table student;
+create table Student (id int NOT NULL,
+name varchar(20) not null,
+batch char(4) not null default 'B001',
+marks int ,
+date_of_joining datetime not null,
+address varchar(200) not null unique,
+check (batch in ('B001','B002','B003')),
+check(marks >= 0 and marks <= 100)
+);
+
+
+insert into student(id, name , batch, marks , date_of_joining, address) values
+(101, 'Ajay','B001', 10, now() , 'New  Delhi');
+
+insert into student(id, name , marks , date_of_joining, address) values
+(102, 'Ajay', 78, now() , 'S-90, New  Delhi'); 
+
+select * from student;
+select curdate();
+ select current_date();
+ 
+ 
+ alter table student add course varchar(20) check (course in ('C#', 'Java'));
+  alter table student add trainer varchar(20) check (trainer in ('ABC', 'XYZ'));
+ update student set course ='C#' where id IN (1,4);
+ 
+ alter table student drop column course; 
+ 
+ alter table student modify column name varchar(30);
+ ALTER TABLE student RENAME COLUMN date_of_joining TO doj;
+
+ 
+ 
+
+
+
+
+
+
