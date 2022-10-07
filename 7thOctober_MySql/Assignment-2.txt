@@ -1,0 +1,19 @@
+              Assignment No : 2
+Create tables with the following structure
+
+
+ Employee Table 
+ 
+ employee id
+ name
+ exp
+ salary
+ DOB
+  
+ Understand and create keys on these tables
+
+1. Make procedures to insert records in all these tables 
+2. Make procedures to update , delete records based on the ids'
+
+User shud get a mesaage whether record is inserted,deleted or updated or not
+
