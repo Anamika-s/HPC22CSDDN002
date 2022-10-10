@@ -7,6 +7,9 @@ primary key(batchid));
 
 
 
+
+
+
 drop table student;
 
  create table student (rn int ,
