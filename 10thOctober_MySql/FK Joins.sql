@@ -30,6 +30,7 @@ insert into batch values(batchid, batchname, trainer, startdate);
 End$$
 DELIMITER ;
 
+
 call insertbatch(100, 'B001','Ajay Kumar', '2022/12/12');
 call insertbatch(101, 'B002','Deepak Kumar', '2022/10/09');
 call insertbatch(102, 'B003','Sahil Kumar', '2022/02/19');
