@@ -1,0 +1,14 @@
+           Assignment No : 2 C#
+
+
+1. Print sum and average of elements of an Array
+
+2. WAP to display sum of 3 by 3 matrices
+
+3. WAP to find the maximum element of an integer Array
+
+4. WAP to print column wise sum of elements of 2 D Array
+
+5. WAP to print row wise sum of elements of 2 D Array
+
+
